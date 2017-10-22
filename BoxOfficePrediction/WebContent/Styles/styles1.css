@@ -1,0 +1,14 @@
+@CHARSET "ISO-8859-1";
+* {margin: 0; padding: 0;}
+ 
+body {
+ <!-- src: http://subtlepatterns.com/?p=1045 -->
+ background-image: url('tweed_@2X.png');
+}
+ 
+#container {
+ width: 1250px;
+ overflow: hidden;
+ margin: 50px auto;
+ background: white;
+}

@@ -1,0 +1,102 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+<head>
+<title>Box Office Prediction</title>
+
+<link rel="icon" href="images/BoxOffice.jpg">
+<link rel="stylesheet" href="Styles/styles1.css" type="text/css">
+<link rel="stylesheet" href="Styles/styles2.css" type="text/css">
+<link rel="stylesheet" href="Styles/styles3.css" type="text/css">
+<link rel="stylesheet" href="Styles/styles4.css" type="text/css">
+<link rel="stylesheet" href="Styles/styles5.css" type="text/css">
+
+
+<script>
+function validateForm() {
+    var x = document.forms["Form1"]["username"].value;
+    if (x == null || x == "") {
+        alert("Username Empty");
+        return false;
+    }
+    var y = document.forms["Form1"]["password"].value;
+    if (y == null || y == "") {
+        alert("Password Empty");
+        return false;
+    }
+    if(x != "admin" || y != "xyz")
+    	{
+    	alert("Invalid username or password.. Try again");
+    	return false;
+    	}
+}
+</script>
+</head>
+
+<body style="background-image:url('images/tweed.png');">
+
+<div class="form1">
+<form name="Form1" action="adminForm.html"
+onsubmit="return validateForm()" method="post">
+Username: <input type="text" name="username"><br>
+Password: <input type="password" name="password"><br>
+<input type="submit" value="Submit">
+</form>
+
+</div>
+
+
+<div id="container">
+  <header>
+     <h1>Box Office Prediction</h1>
+     <p>Welcome.. this is the site that gives a quick over view of the upcoming movies and their box office predictions.</p>
+  </header>    
+ 
+    <!-- Each image is 350px by 233px -->
+    <div class="photobanner">
+    <form action="result.do" method="post">
+     
+     <button class="first" type="submit" name="movie" value="ki & ka"><img src="images/image1.jpg" ></button>
+     <button type="submit" name="movie" value="Fitoor"><img src="images/image2.jpg" ></button>
+     <button type="submit" name="movie" value="Gangaajal"><img src="images/image3.jpg" ></button>
+     <button type="submit" name="movie" value="Deadpool"><img src="images/image4.jpg" ></button>
+     <button type="submit" name="movie" value="Kung fu panda"><img src="images/image5.jpg" ></button>
+     <button type="submit" name="movie" value="Batman vs Superman"><img src="images/image6.jpg" ></button>
+     <button type="submit" name="movie" value="Kapoor & Sons"><img src="images/image7.jpg" ></button>
+     <button type="submit" name="movie" value="Ki & Ka"><img src="images/image1.jpg" ></button>
+     <button type="submit" name="movie" value="Fitoor"><img src="images/image2.jpg" ></button>
+     <button type="submit" name="movie" value="Gangaajal"><img src="images/image3.jpg" ></button>
+     <button type="submit" name="movie" value="Deadpool"><img src="images/image4.jpg" ></button>
+     <button type="submit" name="movie" value="Kung fu panda"><img src="images/image5.jpg" ></button>
+     <button type="submit" name="movie" value="Batman vs Superman"><img src="images/image6.jpg" ></button>
+     <button type="submit" name="movie" value="Kapoor & Sons"><img src="images/image7.jpg" ></button>
+     <button type="submit" name="movie" value="Ki & Ka"><img src="images/image1.jpg" ></button>
+     <button type="submit" name="movie" value="Fitoor"><img src="images/image2.jpg" ></button>
+     <button type="submit" name="movie" value="Gangaajal"><img src="images/image3.jpg" ></button>
+     <button type="submit" name="movie" value="Deadpool"><img src="images/image4.jpg" ></button>
+          
+     <!-- 
+     <img src="images/image2.jpg" alt="" />
+     <img src="images/image3.jpg" alt="" />
+     <img src="images/image4.jpg" alt="" />
+     <img src="images/image5.jpg" alt="" />
+     <img src="images/image6.jpg" alt="" />
+     <img src="images/image7.jpg" alt="" />
+     <img src="images/image1.jpg" alt="" />
+     <img src="images/image2.jpg" alt="" />
+     <img src="images/image3.jpg" alt="" />
+     <img src="images/image4.jpg" alt="" />
+     <img src="images/image5.jpg" alt="" />
+     <img src="images/image6.jpg" alt="" />
+     <img src="images/image7.jpg" alt="" />
+     <img src="images/image1.jpg" alt="" />
+     <img src="images/image2.jpg" alt="" />
+     <img src="images/image3.jpg" alt="" />
+      -->
+     </form>
+                
+     </div>
+</div>
+</body>
+
+</html>

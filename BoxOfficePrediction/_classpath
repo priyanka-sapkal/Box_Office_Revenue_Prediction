@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="lib" path="C:/eclipse/gson-2.2.2.jar"/>
+	<classpathentry kind="lib" path="C:/eclipse/jdbc.jar"/>
+	<classpathentry kind="lib" path="C:/eclipse/json-simple-1.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/eclipse/stanford-corenlp-1.3.3-sources.jar"/>
+	<classpathentry kind="lib" path="C:/eclipse/stanford-corenlp-3.5.2.jar"/>
+	<classpathentry kind="lib" path="C:/eclipse/stanford-corenlp-3.5.2-models.jar"/>
+	<classpathentry kind="lib" path="C:/eclipse/stanford-parser-3.5.2.jar"/>
+	<classpathentry kind="lib" path="C:/eclipse/twitter4j-core-2.2.5.jar"/>
+	<classpathentry kind="lib" path="C:/eclipse/twitter4j-stream-2.2.5.jar"/>
+	<classpathentry kind="lib" path="C:/eclipse/unirest-java-1.4.8-SNAPSHOT-jar-with-dependencies.jar" sourcepath="/masahape"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7">
+		<attributes>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.server.core.container/org.eclipse.jst.server.tomcat.runtimeTarget/Apache Tomcat v8.0"/>
+	<classpathentry kind="lib" path="C:/eclipse/javax.jar"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>

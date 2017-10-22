@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Admin Page</title>
+<link rel="icon" href="images/BoxOffice.jpg">
+<link rel="stylesheet" href="Styles/styles6.css" type="text/css">
+<link rel="stylesheet" href="Styles/styles7.css" type="text/css">
+
+
+<script>
+
+function NewMovie()
+{
+		{
+		document.Form1.action = "newMovie.html";
+	    document.Form1.target = "_self";    // Open in same window
+	    document.Form1.submit();             // Submit the page
+	    return true;
+	    }
+    
+}
+
+function Reschedule()
+{
+		{
+		document.Form1.action = "Reschedule.html";
+	    document.Form1.target = "_self";    // Open in same window
+	    document.Form1.submit();             // Submit the page
+	    return true;
+		}
+    
+}
+
+</script>
+</head>
+
+<body style="background-image:url('images/tweed.png');">
+
+<div id="container" >
+
+<h1>Welcome</h1>
+
+	<form  name="Form1"  method="post">
+
+	   	<div id="section5">
+	   	<button class="button" onclick="return NewMovie();">Add New Movie</button>
+	   	<button class="button" onclick="return Reschedule();">Reschedule movie</button>
+		
+		</div>
+
+</form>
+
+</div>
+
+</body>
+</html>
